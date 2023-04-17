@@ -1,6 +1,6 @@
 export default function Home() {
   return (
-    <main className="prose prose-invert prose-headings:text-zinc-100 prose-headings:font-semibold prose-h1:text-3xl prose-h2:text-xl prose-h2:font-medium prose-p:text-zinc-400 prose-pre:bg-zinc-900 prose-pre:border prose-pre:border-white/10 prose-pre:rounded-2xl prose-a:text-cyan-400">
+    <main className="prose prose-invert prose-headings:text-zinc-100 prose-headings:font-semibold prose-h1:text-3xl prose-h2:text-xl prose-h2:font-medium prose-p:text-zinc-400 prose-pre:bg-zinc-900 prose-pre:border prose-pre:border-white/10 prose-pre: rounded-2xl prose-a:text-cyan-400">
       <h1 id="authentication">Authentication</h1>
       <p>You&#39;ll need to authenticate your requests to access any of the endpoints in the Protocol API. In this guide, we&#39;ll look at how authentication works. Protocol offers two ways to authenticate your API requests: Basic authentication and OAuth2 with a token.</p>
       <h2 id="basic-authentication">Basic authentication</h2>
@@ -20,3 +20,7 @@ export default function Home() {
     </main>
   )
 }
+
+{/*prose prose-invert essas duas linhas estilzam todo o código, as h1 ate'h5, pre, p, etc.... esses elemtos basicos do html7
+
+prose-heading são todos o <Hs>*/}
